@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.white {
+.q5_white {
   width: 500px;
   height: 500px;
   background-color: #ECF1F2 ;
   margin: 0 auto;
   position: relative;
 }
+
 .cell {
   width: 100px;
   line-height: 100px;
@@ -16,12 +17,14 @@
   font-weight: bold;
   font-size: 30px;
 }
+
 .q5_1_part {
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
+
 .q5_8_part::after {
   content: "";
   position: absolute;
@@ -31,48 +34,56 @@
   width: 20px;
   height: 20px;
 }
+
 .q5_2_part {
   background-color: #7084de;
   top: 120px;
   left: 280px;
   z-index: 2;
 }
+
 .q5_3_part {
   background-color: #d0ecea;
   top: 200px;
   left: 360px;
   z-index: 3;
 }
+
 .q5_4_part {
   background-color: #8b7a5e;
   top:280px;
   left: 280px;
   z-index: 4;
 }
+
 .q5_5_part {
   background-color: #9fd6d2;
   top: 360px;
   left: 200px;
   z-index: 5;
 }
+
 .q5_6_part {
   background-color: #fffee4;
   top: 280px;
   left: 120px;
   z-index: 6;
 }
+
 .q5_7_part {
   background-color: #deae70;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
+
 .q5_8_part {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
+
 .q5_9_part {
   background-color: #2b69a3;
   position: fixed;

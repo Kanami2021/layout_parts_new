@@ -8,6 +8,7 @@
   padding: 20px;
   box-sizing: border-box;
 }
+
 .q1__content__box {
   float: left;
   background-color: #3274ae;
@@ -15,14 +16,17 @@
   padding: 20px;
   margin-left: 20px;
 }
+
 .q1__content__text {
   background-color: #eaf4ff;
   border: 10px solid #022336;
   padding: 20px;
 }
+
 .q1__content .q1__content__box:first-child {
   margin-left: 0;
 }
+
 .clearfix:after {
   display: block;
   content: "";
