@@ -80,13 +80,14 @@
   width: 300px;
   display: inline-block;
   box-sizing: border-box;
+  vertical-align: top;
 }
 
 .flexible {
   display: inline-block;
   box-sizing: border-box;
-  margin-left: -200px;
-  padding-left: 250px;
+  margin-left: -300px;
+  padding-left: 350px;
   width: 100%;
 }
 
