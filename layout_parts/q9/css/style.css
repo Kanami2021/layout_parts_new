@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.round{
+.round {
   font-size: 16px;
   line-height: 16px;
   border-radius: 30px;
@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-.round::before{
+.round::before {
   position: absolute;
   bottom: -45px;
   left: 30px;
@@ -21,7 +21,7 @@
   border-top-color: #222;
 }
 
-.round::after{
+.round::after {
   position: absolute;
   bottom: -38px;
   left: 30px;

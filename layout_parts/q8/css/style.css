@@ -1,31 +1,61 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.transition_image_car {
-  transition-duration: 0.5s;
+.transition_car {
   width: 500px;
+  height: 333px;
   position: relative;
   margin: 0 auto;
+  cursor: pointer;
+  overflow: hidden;
 }
 
+.picture {
+  transition: all 0.5s;
+}
 
-.transition_image_car:hover {
+.transition_car:hover .picture {
   transform: scale(1.5);
-  transition-duration: 0.5s;
 }
 
+.transition_text {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+}
+
+.transition_text_sentence {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.transition_car:hover .transition_text {
+  bottom: 0;
+}
 
 /* spinner */
-.spinner{
+.spinner {
   width: 100px;
   height: 100px;
   border: 10px solid #ecf1f2;
   border-radius: 50%;
-  animation: 1.1s infinite linear;
+  animation: loading 1.1s infinite linear;
   margin: 0 auto;
   border-top-color: #00bcd4;
 }
 
-
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* 回答はここに書いてね */
