@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.round{
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  width: 500px;
+  border: 5px solid #222;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+}
 
+.round::before{
+  position: absolute;
+  bottom: -45px;
+  left: 30px;
+  content: "";
+  border: 20px solid transparent;
+  border-top-color: #222;
+}
+
+.round::after{
+  position: absolute;
+  bottom: -38px;
+  left: 30px;
+  content: "";
+  border: 20px solid transparent;
+  border-top-color: #fff;
+}
 /* 回答はここに書いてね */

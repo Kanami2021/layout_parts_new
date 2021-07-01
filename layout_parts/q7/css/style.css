@@ -42,6 +42,10 @@
 
 /*inline-block */
 .block {
+  font-size: 0;
+}
+
+.inlineblockbox {
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
@@ -50,7 +54,7 @@
   width: 225px;
 }
 
-.block:first-child {
+.inlineblockbox:first-child {
   margin-left: 0;
 }
 
@@ -68,6 +72,10 @@
 }
 
 /*inline-blockとmargin */
+.marginpart {
+  font-size: 0;
+}
+
 .stable {
   width: 300px;
   display: inline-block;
